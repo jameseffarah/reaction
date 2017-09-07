@@ -456,6 +456,7 @@ Router.initPackageRoutes = (options) => {
       routeDefinitions.push({
         route: "/",
         name: "index",
+        layoutFooter: "layoutFooter",
         options: {
           name: "index",
           ...options.indexRoute,

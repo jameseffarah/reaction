@@ -33,7 +33,7 @@ Reaction.registerPackage({
     structure: {
       template: "productDetail",
       layoutHeader: "layoutHeader",
-      layoutFooter: "",
+      layoutFooter: "layoutFooter",
       notFound: "productNotFound",
       dashboardHeader: "productDetailSimpleToolbar",
       dashboardControls: "productDetailDashboardControls",
@@ -49,7 +49,7 @@ Reaction.registerPackage({
     structure: {
       template: "products",
       layoutHeader: "layoutHeader",
-      layoutFooter: "",
+      layoutFooter: "layoutFooter",
       notFound: "productNotFound",
       dashboardHeader: "gridPublishControls",
       dashboardControls: "productDetailDashboardControls",

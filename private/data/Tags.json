@@ -1,6 +1,6 @@
 [{
-  "slug": "example-product",
-  "name": "example-product",
+  "slug": "shaker-cup",
+  "name": "shaker cup",
   "isTopLevel": false,
   "updatedAt": {
     "$date": "2014-04-12T08:17:20.576-0700"
@@ -11,7 +11,7 @@
   "_id": "cseCBSSrJ3t8HQSNP",
   "shopId": "J8Bhq3uTtdgwZx3rz"
 }, {
-  "slug": "shop",
+  "slug": "Shop",
   "name": "Shop",
   "isTopLevel": true,
   "updatedAt": {

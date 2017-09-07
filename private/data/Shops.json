@@ -3160,13 +3160,13 @@
       }
     }
   },
-  "name": "REACTION",
+  "name": ".SUPPDOGS",
   "taxes": [{
     "taxesIncluded": null,
     "taxShipping": null,
     "countyTaxes": true
   }],
-  "timezone": "US/Pacific",
+  "timezone": "America/Boise",
   "baseUOM": "OZ",
   "unitsOfMeasure": [{
     "uom": "OZ",
@@ -3183,15 +3183,15 @@
     "label": "Kilograms"
   }],
   "addressBook": [{
-    "company": "Reaction Commerce",
-    "fullName": "Ongo Works",
-    "address1": "2110 Main Street",
-    "address2": "Suite 207",
-    "city": "Santa Monica",
-    "region": "CA",
-    "postal": "90405",
+    "company": "suppDogs",
+    "fullName": "suppDogs",
+    "address1": "6215 W York St.",
+    "address2": "",
+    "city": "Boise",
+    "region": "ID",
+    "postal": "83704",
     "country": "US",
-    "phone": "8885551212",
+    "phone": "2089173375",
     "isCommercial": true,
     "isShippingDefault": true,
     "isBillingDefault": true
@@ -3203,7 +3203,10 @@
     "tag",
     "index",
     "cart/checkout",
-    "cart/completed"
+    "cart/completed",
+    "about",
+    "privacy",
+    "faq"
   ],
   "defaultRoles": [
     "account/profile",
@@ -3212,7 +3215,10 @@
     "tag",
     "index",
     "cart/checkout",
-    "cart/completed"
+    "cart/completed",
+    "about",
+    "privacy",
+    "faq"
   ]
 }, {
   "_id": "ddzuN2YPvgvx7rJS5",
@@ -6371,61 +6377,5 @@
         "languages": "en,sn,nd"
       }
     }
-  },
-  "name": "<blank site>",
-  "taxes": [{
-    "taxesIncluded": null,
-    "taxShipping": null,
-    "countyTaxes": true
-  }],
-  "timezone": "US/Pacific",
-  "baseUOM": "OZ",
-  "unitsOfMeasure": [{
-    "uom": "OZ",
-    "label": "Ounces",
-    "default": true
-  }, {
-    "uom": "LB",
-    "label": "Pounds"
-  }, {
-    "uom": "GR",
-    "label": "Grams"
-  }, {
-    "uom": "KG",
-    "label": "Kilograms"
-  }],
-  "addressBook": [{
-    "company": "<your company>",
-    "fullName": "<name>",
-    "address1": "",
-    "address2": "",
-    "city": "Santa Monica",
-    "region": "CA",
-    "postal": "90401",
-    "country": "US",
-    "phone": "8885551212",
-    "isCommercial": true,
-    "isShippingDefault": true,
-    "isBillingDefault": true
-  }],
-  "defaultVisitorRole": [
-    "anonymous",
-    "guest",
-    "account/verify",
-    "product",
-    "tag",
-    "index",
-    "cart/checkout",
-    "cart/completed"
-  ],
-  "defaultRoles": [
-    "account/profile",
-    "guest",
-    "product",
-    "account/verify",
-    "tag",
-    "index",
-    "cart/checkout",
-    "cart/completed"
-  ]
+  }
 }]

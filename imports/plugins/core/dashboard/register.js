@@ -47,7 +47,7 @@ Reaction.registerPackage({
     structure: {
       template: "dashboardPackages",
       layoutHeader: "layoutHeader",
-      layoutFooter: "",
+      layoutFooter: "layoutFooter",
       notFound: "notFound",
       dashboardHeader: "dashboardHeader",
       dashboardControls: "dashboardControls",
