@@ -52,3 +52,8 @@ BrowserPolicy.content.allowOriginForAll("fonts.gstatic.com");
 
 BrowserPolicy.content.allowOriginForAll("enginex.kadira.io");
 BrowserPolicy.content.allowOriginForAll("*.stripe.com");
+
+BrowserPolicy.content.allowOriginForAll("*.drift.com");
+BrowserPolicy.content.allowOriginForAll("js.driftt.com");
+BrowserPolicy.content.allowOriginForAll("*.driftt.com");
+BrowserPolicy.content.allowOriginForAll("*.segment.com");
