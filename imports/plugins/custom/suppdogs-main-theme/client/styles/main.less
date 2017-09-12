@@ -781,11 +781,12 @@ footer > ul, menu, dir {
     }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 991px) {
     .title-hero {
         font-size: 36px;
         line-height: 50px;
         margin-top: -10px;
+        text-align: center;
     }
 }
 
@@ -896,6 +897,69 @@ footer > ul, menu, dir {
 }
 
 
+/*Cards*/
+.team-container {
+    max-width: 2020px;
+    margin: 0 auto;
+}
+
+.team-container .members-container {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto 40px auto;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.team-container .member-container {
+    display: flex;
+    flex-direction: column;
+    min-width: 300px;
+    max-width: 25%;
+    margin: 40px;
+    border: 1px solid #dde3ea;
+    border-radius: 8px;
+    align-items: center;
+}
+
+.team-container .member-container .name {
+    font-weight: 600;
+    color: #333333;
+}
+
+.team-container .member-container .name, 
+.team-container .member-container .position {
+    font-size: 20px;
+    min-width: 80%;
+    margin: 0;
+    text-align: center;
+}
+
+.team-container .member-container .description {
+    font-size: 14px;
+    font-weight: 300;
+    max-width: 85%;
+}
+
+.team-container .team-title-container {
+    padding: 6% 5%;
+    text-align: center;
+    color: #333333;
+}
+
+.abouthr {
+    color: #f3f8fb;
+}
+
+.link-about {
+    color: #23566d;
+    font-weight: 400;
+}
+
+.link-about:hover, .link-about:after, .link-about:focus {
+    color: #afb293;
+    font-weight: 400;
+}
 /*ABOUT PAGE*/
 
 
